@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="SBQ">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_CPU:cpu|cpu_CPU_ic_data_module:cpu_CPU_ic_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_qed1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_CPU:cpu|cpu_CPU_ic_tag_module:cpu_CPU_ic_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_5eg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_CPU:cpu|cpu_CPU_nios2_oci:the_cpu_CPU_nios2_oci|cpu_CPU_nios2_ocimem:the_cpu_CPU_nios2_ocimem|cpu_CPU_ociram_sp_ram_module:cpu_CPU_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_r071.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_CPU:cpu|cpu_CPU_register_bank_b_module:cpu_CPU_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_1gf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_EPCS:epcs|altsyncram:the_boot_copier_rom" CBX_FILE_NAME="altsyncram_p031.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_CPU:cpu|cpu_CPU_bht_module:cpu_CPU_bht|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_02g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_CPU:cpu|cpu_CPU_mult_cell:the_cpu_CPU_mult_cell|altera_mult_add:the_altmult_add_part_1" CBX_FILE_NAME="altera_mult_add_mpt2.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_CPU:cpu|cpu_CPU_mult_cell:the_cpu_CPU_mult_cell|altera_mult_add:the_altmult_add_part_2|altera_mult_add_opt2:auto_generated|altera_mult_add_rtl:altera_mult_add_rtl1|ama_multiplier_function:multiplier_block|lpm_mult:Mult0" CBX_FILE_NAME="mult_1s01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_CPU:cpu|cpu_CPU_register_bank_a_module:cpu_CPU_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_0gf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_JTAG:jtag|cpu_JTAG_scfifo_w:the_cpu_JTAG_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_CPU:cpu|cpu_CPU_mult_cell:the_cpu_CPU_mult_cell|altera_mult_add:the_altmult_add_part_1|altera_mult_add_mpt2:auto_generated|altera_mult_add_rtl:altera_mult_add_rtl1|ama_multiplier_function:multiplier_block|lpm_mult:Mult0" CBX_FILE_NAME="mult_1l01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_CPU:cpu|cpu_CPU_mult_cell:the_cpu_CPU_mult_cell|altera_mult_add:the_altmult_add_part_2" CBX_FILE_NAME="altera_mult_add_opt2.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_CPU:cpu|lpm_add_sub:Add10" CBX_FILE_NAME="add_sub_8ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Pre_Exp|cpu:inst1|cpu_JTAG:jtag|cpu_JTAG_scfifo_r:the_cpu_JTAG_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

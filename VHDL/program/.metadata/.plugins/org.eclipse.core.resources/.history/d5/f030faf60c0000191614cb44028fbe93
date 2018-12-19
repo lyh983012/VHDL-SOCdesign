@@ -1,0 +1,7 @@
+obj/default/main.o: main.c pio.h ../sbq_bsp/system.h ../sbq_bsp/linker.h
+
+pio.h:
+
+../sbq_bsp/system.h:
+
+../sbq_bsp/linker.h:

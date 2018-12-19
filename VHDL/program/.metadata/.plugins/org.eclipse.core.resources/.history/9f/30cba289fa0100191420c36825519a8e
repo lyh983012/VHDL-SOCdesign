@@ -1,0 +1,57 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include <unistd.h>
+#include "pio.h"
+#include "lcd.h"
+
+
+
+int main()
+{	initialize_lcd();
+	clear();
+
+	draw_screen(buf);
+	initPIO();
+	while(1){
+		us i;
+		int page=0;
+		int seg;
+		for(i=1;i<5;i++){
+			setData_0(i,1);
+			usleep(500000);
+			setData_0(i,0);
+			usleep(500000);
+			page++;
+			set_y(page);//讴置页地址，一共8页 set_x(0x00);//讴置列地址为0
+					for(seg=0;seg<128;seg++){
+						write_data(0xFFFF);
+					}
+		}
+		printf("Hello from Nios II!\n");
+		PIO_0_DATA=0xFFFF;
+		usleep(500000);
+		PIO_0_DATA=0;
+	}
+  return 0;
+}
+
+
+void draw_board(){
+
+}
+}

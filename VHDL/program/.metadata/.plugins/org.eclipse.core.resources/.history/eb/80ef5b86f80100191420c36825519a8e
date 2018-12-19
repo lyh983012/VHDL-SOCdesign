@@ -1,0 +1,81 @@
+
+#include <system.h>
+
+
+typedef unsigned short us;
+typedef struct{
+	unsigned long int DATA;
+	unsigned long int DIRECTION;
+	unsigned long int INTERUPT;
+	unsigned long int EDGE;
+
+}PIO;
+
+#define PIO_0_s ((PIO *) PIO_0_BASE )
+#define PIO_0_DATA PIO_0_s->DATA
+#define PIO_0_DIRECTION PIO_0_s->DIRECTION
+#define PIO_0_EDGE PIO_0_s->EDGE
+#define PIO_0_INTERUPT PIO_0_s->INTERUPT
+#define PIO_PIN_0      	0x0001  /* Pin 0 selected    */
+#define PIO_PIN_1       0x0002  /* Pin 1 selected    */
+#define PIO_PIN_2       0x0004  /* Pin 2 selected    */
+#define PIO_PIN_3      	0x0008  /* Pin 3 selected    */
+#define PIO_PIN_4       0x0010  /* Pin 4 selected    */
+#define PIO_PIN_5       0x0020  /* Pin 5 selected    */
+#define PIO_PIN_6       0x0040  /* Pin 6 selected    */
+#define PIO_PIN_7       0x0080  /* Pin 7 selected    */
+#define PIO_PIN_8       0x0100  /* Pin 8 selected    */
+#define PIO_PIN_9       0x0200  /* Pin 9 selected    */
+#define PIO_PIN_10     	0x0400  /* Pin 10 selected   */
+#define PIO_PIN_11      0x0800  /* Pin 11 selected   */
+#define PIO_PIN_12      0x1000  /* Pin 12 selected   */
+#define PIO_PIN_13      0x2000  /* Pin 13 selected   */
+#define PIO_PIN_14      0x4000  /* Pin 14 selected   */
+#define PIO_PIN_15      0x8000  /* Pin 15 selected   */
+#define PIO_PIN_All     0xFFFF  /* All pins selected*/
+
+void initialize_lcd(void);
+void draw_screen(unsigned char *p);
+void clear(void);
+void write_data(unsigned char dat);
+void data_send(unsigned char dat);
+void write_command(unsigned char com);
+
+
+void initPIO(){
+		PIO_0_DATA = 0x00;
+		PIO_0_DIRECTION = 0xFF;
+		PIO_0_EDGE = 0x00;
+		PIO_0_INTERUPT=0x00;
+	}
+
+int setData_0(us index, us data){
+		if(data==1){
+			PIO_0_DATA |= (1<<index); //make index to 1
+		}else{
+			PIO_0_DATA &=~(1<<index);
+		}return PIO_0_DATA;
+	}
+
+void setOne_0(us pin){
+		PIO_0_DATA |=pin;
+	}
+
+void setZero_0(us pin){
+		PIO_0_DATA &=~pin;
+	}
+
+us readData_0(us index){
+			return (PIO_0_DATA>>index) & 1;
+	}
+
+
+us changeDir_0(us index, us data){
+		if(data==1){
+			PIO_0_DIRECTION |= (1<<index); //make index to 1
+		}else{
+			PIO_0_DIRECTION &=~(1<<index);
+		}return PIO_0_DIRECTION;
+	}
+
+

@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project SBQ_1 ****
+
+make all 
+Info: Building ../SBQ_1_bsp/
+make --no-print-directory -C ../SBQ_1_bsp/
+[BSP build complete]
+[SBQ_1 build complete]
+
+**** Build Finished ****

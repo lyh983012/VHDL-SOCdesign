@@ -1,0 +1,8 @@
+#ifndef _lcd_h_
+#define _lcd_h_
+extern void initialize_lcd(void);
+
+extern void draw_screen(unsigned char *p);
+extern void clear(void);
+extern unsigned char buf[];
+#endif

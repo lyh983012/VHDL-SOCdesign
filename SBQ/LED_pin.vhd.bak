@@ -1,0 +1,35 @@
+library IEEE;
+ use IEEE.std_logic_1164.all;
+ use IEEE.std logic arith.all ;
+ use IEEE.std logic unsigned.all;
+entity seg7 is 
+port (
+	CLOCK :	IN STD LOGIC;
+	RESET :	IN STD LOGIC;
+	SEL:	OUT STD LOGIC VECTOR (5 DOWNTO 0) ;
+	DIG:	BUFFER STD LOGIC VECTOR	(7	DOWNTO 0 );
+	);
+end entity 3eg7 ;
+
+architecture 3eg di3 of 3eg7 i3
+3ignal cnt:
+STD LOGIC VECTOR (24 DOWNTO O) ;
+--generate 0. 53
+3ignal num:STD LOGIC VECTOR (3 DOWNTO 0) ;
+.-state machine flag
+constant numO : STD LOGIC VECTOR ( 7 DOWNTO 0) := "11000000" ; --OxcO
+constant num1 : STD LOGIC VECTOR (7 DOWNTO 0) := "11111001"; --Oxf9
+constant num2 :STD LOGICVECTOR (7 DOWNTO 0):= "10100100";--0xa4
+constant num3 :STD LOGICVECTOR (7 DOWNTO 0) := "10110000" ;--0xb0
+constant num4 :STD LOGIC VECTOR (7 DOWNTO 0) := "10011001"; --0x99
+constant num5 :STD LOGICVECTOR (7 DOWNTO 0) := "10010010"; --0x92
+constant num6 : STD LOGIC VECTOR ( 7 DOWNTO 0) := "10000010" ; --0x82
+constant num7 : STD LOGIC VECTOR (7 DOWNTO 0) := "11111000"; --0xf8
+constant num8 :
+STD LOGIC
+VECTOR ( 7
+DOWNTO O) := "10000000" ;
+. --Ox8O
+constant num9 :
+STD LOGIC VECTOR (7 DOWNTO O) := "10010000";
+. -0x90

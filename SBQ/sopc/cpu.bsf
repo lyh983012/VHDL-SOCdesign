@@ -1,0 +1,200 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 480 552)
+	(text "cpu" (rect 230 -1 244 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 536 20 548)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "CLK" (rect 0 0 20 12)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 4 61 22 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 208 72)(line_width 1))
+	)
+	(port
+		(pt 0 280)
+		(input)
+		(text "reset_n" (rect 0 0 30 12)(font "Arial" (font_size 8)))
+		(text "reset_n" (rect 4 269 46 280)(font "Arial" (font_size 8)))
+		(line (pt 0 280)(pt 208 280)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "zs_addr_from_the_SDRAM[11..0]" (rect 0 0 141 12)(font "Arial" (font_size 8)))
+		(text "zs_addr_from_the_SDRAM[11..0]" (rect 4 101 178 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 208 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(output)
+		(text "zs_ba_from_the_SDRAM[1..0]" (rect 0 0 129 12)(font "Arial" (font_size 8)))
+		(text "zs_ba_from_the_SDRAM[1..0]" (rect 4 117 160 128)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 208 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(output)
+		(text "zs_cas_n_from_the_SDRAM" (rect 0 0 126 12)(font "Arial" (font_size 8)))
+		(text "zs_cas_n_from_the_SDRAM" (rect 4 133 142 144)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 208 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(output)
+		(text "zs_cke_from_the_SDRAM" (rect 0 0 115 12)(font "Arial" (font_size 8)))
+		(text "zs_cke_from_the_SDRAM" (rect 4 149 130 160)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 208 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(output)
+		(text "zs_cs_n_from_the_SDRAM" (rect 0 0 121 12)(font "Arial" (font_size 8)))
+		(text "zs_cs_n_from_the_SDRAM" (rect 4 165 136 176)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 208 176)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(output)
+		(text "zs_dqm_from_the_SDRAM[1..0]" (rect 0 0 138 12)(font "Arial" (font_size 8)))
+		(text "zs_dqm_from_the_SDRAM[1..0]" (rect 4 197 166 208)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 208 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(output)
+		(text "zs_ras_n_from_the_SDRAM" (rect 0 0 125 12)(font "Arial" (font_size 8)))
+		(text "zs_ras_n_from_the_SDRAM" (rect 4 213 142 224)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 208 224)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(output)
+		(text "zs_we_n_from_the_SDRAM" (rect 0 0 122 12)(font "Arial" (font_size 8)))
+		(text "zs_we_n_from_the_SDRAM" (rect 4 229 136 240)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 208 240)(line_width 1))
+	)
+	(port
+		(pt 0 400)
+		(output)
+		(text "lcd_si_export" (rect 0 0 53 12)(font "Arial" (font_size 8)))
+		(text "lcd_si_export" (rect 4 389 82 400)(font "Arial" (font_size 8)))
+		(line (pt 0 400)(pt 208 400)(line_width 1))
+	)
+	(port
+		(pt 0 440)
+		(output)
+		(text "lcd_a0_export" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "lcd_a0_export" (rect 4 429 82 440)(font "Arial" (font_size 8)))
+		(line (pt 0 440)(pt 208 440)(line_width 1))
+	)
+	(port
+		(pt 0 480)
+		(output)
+		(text "lcd_scl_export" (rect 0 0 57 12)(font "Arial" (font_size 8)))
+		(text "lcd_scl_export" (rect 4 469 88 480)(font "Arial" (font_size 8)))
+		(line (pt 0 480)(pt 208 480)(line_width 1))
+	)
+	(port
+		(pt 0 520)
+		(output)
+		(text "lcd_cs_export" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "lcd_cs_export" (rect 4 509 82 520)(font "Arial" (font_size 8)))
+		(line (pt 0 520)(pt 208 520)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(bidir)
+		(text "zs_dq_to_and_from_the_SDRAM[15..0]" (rect 0 0 167 12)(font "Arial" (font_size 8)))
+		(text "zs_dq_to_and_from_the_SDRAM[15..0]" (rect 4 181 208 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 208 192)(line_width 3))
+	)
+	(port
+		(pt 0 320)
+		(bidir)
+		(text "p_0_export[15..0]" (rect 0 0 69 12)(font "Arial" (font_size 8)))
+		(text "p_0_export[15..0]" (rect 4 309 106 320)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 208 320)(line_width 3))
+	)
+	(port
+		(pt 0 360)
+		(bidir)
+		(text "p_1_export[15..0]" (rect 0 0 68 12)(font "Arial" (font_size 8)))
+		(text "p_1_export[15..0]" (rect 4 349 106 360)(font "Arial" (font_size 8)))
+		(line (pt 0 360)(pt 208 360)(line_width 3))
+	)
+	(drawing
+		(text "CLK_clk_in" (rect 141 43 342 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 213 67 444 144)(font "Arial" (color 0 0 0)))
+		(text "SDRAM_wire" (rect 133 83 326 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "addr" (rect 213 107 450 224)(font "Arial" (color 0 0 0)))
+		(text "ba" (rect 213 123 438 256)(font "Arial" (color 0 0 0)))
+		(text "cas_n" (rect 213 139 456 288)(font "Arial" (color 0 0 0)))
+		(text "cke" (rect 213 155 444 320)(font "Arial" (color 0 0 0)))
+		(text "cs_n" (rect 213 171 450 352)(font "Arial" (color 0 0 0)))
+		(text "dq" (rect 213 187 438 384)(font "Arial" (color 0 0 0)))
+		(text "dqm" (rect 213 203 444 416)(font "Arial" (color 0 0 0)))
+		(text "ras_n" (rect 213 219 456 448)(font "Arial" (color 0 0 0)))
+		(text "we_n" (rect 213 235 450 480)(font "Arial" (color 0 0 0)))
+		(text "CLK_clk_in_reset" (rect 103 251 302 515)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 213 275 468 560)(font "Arial" (color 0 0 0)))
+		(text "p_0" (rect 187 291 392 595)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 213 315 462 640)(font "Arial" (color 0 0 0)))
+		(text "p_1" (rect 189 331 396 675)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 213 355 462 720)(font "Arial" (color 0 0 0)))
+		(text "lcd_si" (rect 175 371 386 755)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 213 395 462 800)(font "Arial" (color 0 0 0)))
+		(text "lcd_a0" (rect 171 411 378 835)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 213 435 462 880)(font "Arial" (color 0 0 0)))
+		(text "lcd_scl" (rect 169 451 380 915)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 213 475 462 960)(font "Arial" (color 0 0 0)))
+		(text "lcd_cs" (rect 172 491 380 995)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 213 515 462 1040)(font "Arial" (color 0 0 0)))
+		(text " cpu " (rect 462 536 954 1082)(font "Arial" ))
+		(line (pt 209 52)(pt 209 76)(line_width 1))
+		(line (pt 210 52)(pt 210 76)(line_width 1))
+		(line (pt 209 92)(pt 209 244)(line_width 1))
+		(line (pt 210 92)(pt 210 244)(line_width 1))
+		(line (pt 209 260)(pt 209 284)(line_width 1))
+		(line (pt 210 260)(pt 210 284)(line_width 1))
+		(line (pt 209 300)(pt 209 324)(line_width 1))
+		(line (pt 210 300)(pt 210 324)(line_width 1))
+		(line (pt 209 340)(pt 209 364)(line_width 1))
+		(line (pt 210 340)(pt 210 364)(line_width 1))
+		(line (pt 209 380)(pt 209 404)(line_width 1))
+		(line (pt 210 380)(pt 210 404)(line_width 1))
+		(line (pt 209 420)(pt 209 444)(line_width 1))
+		(line (pt 210 420)(pt 210 444)(line_width 1))
+		(line (pt 209 460)(pt 209 484)(line_width 1))
+		(line (pt 210 460)(pt 210 484)(line_width 1))
+		(line (pt 209 500)(pt 209 524)(line_width 1))
+		(line (pt 210 500)(pt 210 524)(line_width 1))
+		(line (pt 208 32)(pt 272 32)(line_width 1))
+		(line (pt 272 32)(pt 272 536)(line_width 1))
+		(line (pt 208 536)(pt 272 536)(line_width 1))
+		(line (pt 208 32)(pt 208 536)(line_width 1))
+		(line (pt 0 0)(pt 480 0)(line_width 1))
+		(line (pt 480 0)(pt 480 552)(line_width 1))
+		(line (pt 0 552)(pt 480 552)(line_width 1))
+		(line (pt 0 0)(pt 0 552)(line_width 1))
+	)
+)

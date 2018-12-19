@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Dec 17 19:40:31 2018
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : SBQ
+Top-level Entity Name : Pre_Exp
+Family : Cyclone II
+Device : EP2C8Q208C8
+Timing Models : Final
+Total logic elements : 4,324 / 8,256 ( 52 % )
+    Total combinational functions : 3,851 / 8,256 ( 47 % )
+    Dedicated logic registers : 2,810 / 8,256 ( 34 % )
+Total registers : 2878
+Total pins : 87 / 138 ( 63 % )
+Total virtual pins : 0
+Total memory bits : 51,328 / 165,888 ( 31 % )
+Embedded Multiplier 9-bit elements : 4 / 36 ( 11 % )
+Total PLLs : 1 / 2 ( 50 % )

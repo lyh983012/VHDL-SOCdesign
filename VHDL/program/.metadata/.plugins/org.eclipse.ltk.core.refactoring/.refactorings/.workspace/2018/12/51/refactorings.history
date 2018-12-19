@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;SBQ_1_bsp/system.h&apos;" deleteContents="false" description="Delete resource &apos;SBQ_1_bsp/system.h&apos;" element1="/SBQ_1_bsp/system.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1545049480689"/>&#x0A;<refactoring comment="Delete resource &apos;SBQ_1_bsp/drivers/inc/lcd.h&apos;" deleteContents="false" description="Delete resource &apos;SBQ_1_bsp/drivers/inc/lcd.h&apos;" element1="/SBQ_1_bsp/drivers/inc/lcd.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1545049927270"/>
+</session>

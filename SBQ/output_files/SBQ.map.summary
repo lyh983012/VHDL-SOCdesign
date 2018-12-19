@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec 17 19:40:04 2018
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : SBQ
+Top-level Entity Name : Pre_Exp
+Family : Cyclone II
+Total logic elements : 4,815
+    Total combinational functions : 3,845
+    Dedicated logic registers : 2,926
+Total registers : 2926
+Total pins : 87
+Total virtual pins : 0
+Total memory bits : 51,328
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 1

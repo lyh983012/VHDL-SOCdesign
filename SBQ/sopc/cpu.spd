@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="cpu/simulation/submodules/cpu_CPU.ocp"
+   type="OTHER"
+   library="CPU" />
+ <file path="cpu/simulation/submodules/cpu_CPU.sdc" type="SDC" library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU.vhd"
+   type="VHDL_ENCRYPT"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_bht_ram.dat"
+   type="DAT"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_bht_ram.hex"
+   type="HEX"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_bht_ram.mif"
+   type="MIF"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_ic_tag_ram.dat"
+   type="DAT"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_ic_tag_ram.hex"
+   type="HEX"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_ic_tag_ram.mif"
+   type="MIF"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_jtag_debug_module_sysclk.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_jtag_debug_module_tck.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_jtag_debug_module_wrapper.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_mult_cell.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_nios2_waves.do"
+   type="OTHER"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_ociram_default_contents.dat"
+   type="DAT"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_ociram_default_contents.hex"
+   type="HEX"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_ociram_default_contents.mif"
+   type="MIF"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_oci_test_bench.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_rf_ram_a.dat"
+   type="DAT"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_rf_ram_a.hex"
+   type="HEX"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_rf_ram_a.mif"
+   type="MIF"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_rf_ram_b.dat"
+   type="DAT"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_rf_ram_b.hex"
+   type="HEX"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_rf_ram_b.mif"
+   type="MIF"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_CPU_test_bench.vhd"
+   type="VHDL"
+   library="CPU" />
+ <file
+   path="cpu/simulation/submodules/cpu_SYSID.vho"
+   type="VHDL"
+   library="SYSID" />
+ <file
+   path="cpu/simulation/submodules/cpu_EPCS.vhd"
+   type="VHDL"
+   library="EPCS" />
+ <file
+   path="cpu/simulation/submodules/cpu_EPCS_boot_rom.hex"
+   type="HEX"
+   library="EPCS" />
+ <file
+   path="cpu/simulation/submodules/cpu_SDRAM.vhd"
+   type="VHDL"
+   library="SDRAM" />
+ <file path="cpu/simulation/cpu.vhd" type="VHDL" />
+ <file
+   path="cpu/simulation/cpu_cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent.vhd"
+   type="VHDL" />
+ <file
+   path="cpu/simulation/cpu_sdram_s1_translator_avalon_universal_slave_0_agent.vhd"
+   type="VHDL" />
+ <file path="cpu/simulation/cpu_width_adapter.vhd" type="VHDL" />
+ <file path="cpu/simulation/cpu_width_adapter_001.vhd" type="VHDL" />
+ <file
+   path="cpu/simulation/cpu_cpu_instruction_master_translator.vhd"
+   type="VHDL" />
+ <file path="cpu/simulation/cpu_cpu_data_master_translator.vhd" type="VHDL" />
+ <file
+   path="cpu/simulation/cpu_cpu_jtag_debug_module_translator.vhd"
+   type="VHDL" />
+ <file path="cpu/simulation/cpu_sdram_s1_translator.vhd" type="VHDL" />
+ <file
+   path="cpu/simulation/cpu_epcs_epcs_control_port_translator.vhd"
+   type="VHDL" />
+ <file
+   path="cpu/simulation/cpu_jtag_avalon_jtag_slave_translator.vhd"
+   type="VHDL" />
+ <file
+   path="cpu/simulation/cpu_sysid_control_slave_translator.vhd"
+   type="VHDL" />
+ <topLevel name="cpu" />
+ <deviceFamily name="cycloneii" />
+ <modelMap controllerPath="cpu.EPCS" modelPath="cpu.EPCS" />
+</simPackage>
